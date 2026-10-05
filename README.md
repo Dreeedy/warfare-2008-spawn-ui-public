@@ -34,3 +34,5 @@ F8 retains the game's **Quick load** binding. Placement does not guarantee clear
 Fully close the game before replacing files; a new DLL requires a restart. To play without the mod, skip the launcher. To uninstall, close the game and remove `mods/spawn-ui`.
 
 If connection fails, check the game version, file location and process privileges. “DLL loaded” alone does not confirm initialization. See `bridge.log` and `launcher.log` in the mod folder. Report reproduction steps and remove personal paths before sharing logs.
+
+[Known issues](KNOWN_ISSUES.md)
