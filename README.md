@@ -4,6 +4,9 @@
 
 Spawn units near the camera through an F8 panel. Version **1.0.0**. The mod worked correctly at the time of publication.
 
+![Spawn UI panel](images/panel.png)
+![Spawn UI panel](images/units.png)
+
 **Tested only with the Steam edition of Warfare 1.0.8.0 for Windows x86, using the English localization. Other editions and localizations have not been tested.**
 
 ## Features
