@@ -4,9 +4,9 @@
 
 Spawn units near the camera and edit selected player units through an F8 panel. Version **1.1.0**.
 
-The screenshots show an earlier version of the panel.
-
-![Spawn UI panel](images/panel.png)
+![Spawn tab — create units](images/panel-spawn.png)
+![Unit tab — edit the selected unit](images/panel-unit.png)
+![Bugfix tab — restore controls after loading](images/panel-bugfix.png)
 ![Unit catalog](images/units.png)
 
 Compatibility: Steam Warfare 1.0.8.0 for Windows, English localization. Other editions and localizations have not been tested.
