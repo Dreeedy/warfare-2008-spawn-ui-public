@@ -1,19 +1,19 @@
 # Warfare Spawn UI 1.1.0
 
-[Русский](RELEASE_NOTES.ru.md)
+[English](RELEASE_NOTES.en.md)
 
-This update adds three features:
+В обновлении добавлены три возможности:
 
-- **Garrison** for newly spawned player units.
-- **Unit** to view a selected unit and change its skill or assignment with **Apply**. Available assignments are None, Reserve and Garrison.
-- **Bugfix → Fix selection after load** to restore selection and orders when units stop responding after loading. The option is off by default and remembered between launches.
+- **Garrison** для создаваемых юнитов игрока.
+- **Unit** для просмотра выбранного юнита и изменения мастерства или назначения через **Apply**. Доступны None, Reserve и Garrison.
+- **Bugfix → Fix selection after load** для восстановления выбора и приказов, если юниты перестали реагировать после загрузки. По умолчанию опция выключена; выбор сохраняется между запусками.
 
-## Install or update
+## Установка и обновление
 
-Download `warfare-spawn-ui-1.1.0-windows-x86.zip`. Close the game and extract it into the Warfare folder, beside `bin` and `basis`. When updating, back up your previous mod files and keep `settings.ini` to preserve your Bugfix setting.
+Скачайте `warfare-spawn-ui-1.1.0-windows-x86.zip`. Закройте игру и распакуйте его в папку Warfare рядом с `bin` и `basis`. При обновлении сохраните прежние файлы мода и оставьте `settings.ini`, чтобы сохранить настройку Bugfix.
 
-Start the game, load a mission, run `mods/spawn-ui/spawn-ui-launcher.exe` and press **F8**.
+Запустите игру, загрузите миссию, запустите `mods/spawn-ui/spawn-ui-launcher.exe` и нажмите **F8**.
 
-Compatibility: Steam Warfare 1.0.8.0 for Windows, English localization. Garrison assignment does not guarantee transfer to the next mission.
+Совместимость: Steam Warfare 1.0.8.0 для Windows, английская локализация. Назначение Garrison не гарантирует перенос в следующую миссию.
 
-[Controls](README.md#controls) · [Known issues](KNOWN_ISSUES.md) · [Changelog](CHANGELOG.md)
+[Управление](README.md#управление) · [Известные проблемы](KNOWN_ISSUES.md) · [История изменений](CHANGELOG.md)

@@ -1,19 +1,19 @@
-# Known issues
+# Известные проблемы
 
-[Русский](KNOWN_ISSUES.ru.md)
+[English](KNOWN_ISSUES.en.md)
 
-## Units do not respond after loading
+## Юниты не реагируют после загрузки
 
-After loading a mission or save, units may stop responding to left and right mouse clicks even though drag selection still works. This can also happen without the mod.
+После загрузки миссии или сохранения юниты могут перестать реагировать на ЛКМ и ПКМ, хотя выделение рамкой работает. Это бывает и без мода.
 
-Enable **Bugfix → Fix selection after load** and close the panel. The option is off by default and remembered between launches. If it reports an error, try turning it off and on again.
+Включите **Bugfix → Fix selection after load** и закройте панель. По умолчанию опция выключена; выбор сохраняется между запусками. При сообщении об ошибке попробуйте выключить и снова включить её.
 
-## Troubleshooting
+## Решение проблем
 
-If the launcher fails, check that the game is running, the mod is installed in the Warfare folder and both programs have the same privileges. Restart the game after updating the mod.
+Если launcher не запускается, проверьте, что игра работает, мод установлен в папку Warfare, а обе программы запущены с одинаковыми правами. После обновления мода перезапустите игру.
 
-If the Bugfix setting cannot be saved, your choice applies until the game is closed.
+Если настройку Bugfix не удалось сохранить, выбранное значение действует до закрытия игры.
 
-When reporting a problem, include your game version and the steps that caused it. If logs are requested, they are in `mods/spawn-ui`; remove personal paths before sharing them.
+При сообщении о проблеме укажите версию игры и шаги, которые привели к ней. Если потребуются журналы, они находятся в `mods/spawn-ui`; перед отправкой удалите личные пути.
 
-[Back to README](README.md)
+[Вернуться к README](README.md)

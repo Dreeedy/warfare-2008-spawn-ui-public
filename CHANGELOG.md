@@ -1,18 +1,18 @@
-# Changelog
+# История изменений
 
-[Русский](CHANGELOG.ru.md)
+[English](CHANGELOG.en.md)
 
 ## 1.1.0
 
-- Added Garrison for newly spawned player units.
-- Added the Unit tab to view a selected unit and change its skill or assignment through Apply.
-- Added Fix selection after load on the Bugfix tab, with the setting remembered between launches.
-- Fixed displaying whole infantry squads, stationary soldiers and vehicle crews on the Unit tab.
+- Добавлен Garrison для создаваемых юнитов игрока.
+- Добавлена вкладка Unit: информация о выбранном юните и изменение мастерства или назначения через Apply.
+- Во вкладке Bugfix добавлен Fix selection after load с сохранением настройки между запусками.
+- Исправлено отображение полных пехотных отрядов, неподвижных бойцов и экипажей техники во вкладке Unit.
 
 ## 1.0.0
 
-- F8 panel with 200 unit types in three catalogs and seven expandable groups.
-- Spawn 1–20 units near the camera with Enemy, No crew and Skill options.
-- Placement preview and empty helicopters on the ground.
+- Панель F8 с 200 типами юнитов, тремя каталогами и семью раскрывающимися группами.
+- Создание 1–20 юнитов возле камеры с опциями Enemy, No crew и Skill.
+- Предпросмотр размещения и пустые вертолёты на земле.
 
-[Back to README](README.md)
+[Вернуться к README](README.md)

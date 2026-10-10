@@ -1,52 +1,52 @@
 # Warfare (2008) — Spawn UI
 
-[Русский](README.ru.md)
+[English](README.en.md)
 
-Spawn units near the camera and edit selected player units through an F8 panel. Version **1.1.0**.
+Создание юнитов возле камеры и редактирование выбранных юнитов игрока через панель F8. Версия **1.1.0**.
 
-The screenshots show an earlier version of the panel.
+Скриншоты показывают предыдущую версию панели.
 
-![Spawn UI panel](images/panel.png)
-![Unit catalog](images/units.png)
+![Панель Spawn UI](images/panel.png)
+![Каталог юнитов](images/units.png)
 
-Compatibility: Steam Warfare 1.0.8.0 for Windows, English localization. Other editions and localizations have not been tested.
+Совместимость: Steam Warfare 1.0.8.0 для Windows, английская локализация. Другие издания и локализации не проверялись.
 
-## Features
+## Возможности
 
-- 200 unit types in USA / NATO, Arab forces and Neutral, organized into seven expandable groups.
-- Spawn 1–20 units near the camera. Ground rings preview their placement.
-- **Enemy** creates enemy units; **No crew** creates neutral empty vehicles, including helicopters on the ground. Infantry is unaffected by No crew.
-- **Skill** selects a level from Recruit to Elite for infantry and vehicle crews.
-- **Garrison** assigns newly spawned player units to Garrison. Enemies and empty vehicles are unaffected. Transfer to the next mission still depends on the game's rules.
-- **Unit** displays information about a selected player unit and lets you change its skill and assignment.
-- **Bugfix** offers an optional fix for units becoming unresponsive after loading a mission or save.
+- 200 типов юнитов в USA / NATO, Arab forces и Neutral, распределённых по семи раскрывающимся группам.
+- Создание 1–20 юнитов возле камеры. Наземные кольца показывают примерное размещение.
+- **Enemy** создаёт врагов; **No crew** — нейтральную пустую технику, включая вертолёты на земле. На пехоту No crew не влияет.
+- **Skill** задаёт мастерство от Recruit до Elite для пехоты и экипажей техники.
+- **Garrison** назначает создаваемым юнитам игрока Garrison. Враги и пустая техника не затрагиваются. Перенос в следующую миссию по-прежнему зависит от правил игры.
+- **Unit** показывает информацию о выбранном юните игрока и позволяет изменить его мастерство и назначение.
+- **Bugfix** предлагает опциональное исправление отказа управления юнитами после загрузки миссии или сохранения.
 
-## Installation and update
+## Установка и обновление
 
-1. Download `warfare-spawn-ui-1.1.0-windows-x86.zip` from the release. GitHub “Source code” downloads do not contain the mod.
-2. Close the game and extract the archive into the Warfare folder, beside `bin` and `basis`.
-3. Start the game and load a mission.
-4. Run `mods/spawn-ui/spawn-ui-launcher.exe` with the same privileges as the game.
-5. Return to the game and press **F8**.
+1. Скачайте `warfare-spawn-ui-1.1.0-windows-x86.zip` из релиза. Архивы GitHub «Source code» не содержат мод.
+2. Закройте игру и распакуйте архив в папку Warfare рядом с `bin` и `basis`.
+3. Запустите игру и загрузите миссию.
+4. Запустите `mods/spawn-ui/spawn-ui-launcher.exe` с такими же правами, как у игры.
+5. Вернитесь в игру и нажмите **F8**.
 
-To update, close the game, back up the previous mod files and extract the new archive into the same folder. Keep your `settings.ini` to preserve the Bugfix setting. Restart the game and run the launcher again.
+Для обновления закройте игру, сохраните прежние файлы мода и распакуйте новый архив в ту же папку. Оставьте свой `settings.ini`, чтобы сохранить настройку Bugfix. Перезапустите игру и снова запустите launcher.
 
-## Controls
+## Управление
 
-**F8** opens or closes the panel; **Esc** or **X** closes it. The panel works only in tactical missions, including pause. Close it to control units.
+**F8** открывает или закрывает панель; **Esc** или **X** закрывает её. Панель работает только в тактической миссии, включая паузу. Закройте её для управления юнитами.
 
-On **Spawn**, select a category and unit, set Qty and Skill, choose any options you need, then press **SPAWN AT CAMERA CENTER**. Click group headers to expand them and scroll with the mouse wheel. Enemy makes the preview rings red. Enemy, No crew, Garrison and Skill are retained until the next mission, which turns the options off and resets Skill to Recruit.
+На **Spawn** выберите категорию и юнит, задайте Qty и Skill, включите нужные опции и нажмите **SPAWN AT CAMERA CENTER**. Нажимайте на заголовки групп для раскрытия и прокручивайте список колёсиком. Enemy делает кольца красными. Enemy, No crew, Garrison и Skill сохраняются до следующей миссии, которая выключает опции и сбрасывает Skill в Recruit.
 
-On **Unit**, select one player unit in the game before opening the panel. A whole infantry squad counts as one unit. Multiple units, partial squads, enemies, neutral or dead units and empty vehicles cannot be edited. Choose **New skill** or **New assignment**, then press **Apply**. Assignments available here are None, Reserve and Garrison. Existing Vanguard is displayed and preserved when changing only skill.
+Для **Unit** выберите один юнит игрока в игре, затем откройте панель. Полный пехотный отряд считается одним юнитом. Несколько юнитов, часть отряда, враги, нейтральные, погибшие и пустая техника недоступны для редактирования. Выберите **New skill** или **New assignment** и нажмите **Apply**. Доступны назначения None, Reserve и Garrison. Существующий Vanguard отображается и сохраняется при правке только Skill.
 
-A soldier's skill is shared with its squad, but its assignment changes only for that soldier. Vehicle skill also applies to its crew, excluding passengers. Unchanged skill preserves experience. Closing the panel, switching tabs or changing the selected unit cancels unapplied edits. If Apply reports an error, review the displayed values before trying again.
+Skill бойца общий с отрядом, а назначение меняется только у самого бойца. Skill техники применяется также к экипажу, исключая пассажиров. Неизменённый Skill сохраняет опыт. Закрытие панели, смена вкладки или выбранного юнита отменяет неприменённые правки. Если Apply сообщает об ошибке, проверьте отображаемые значения перед повторной попыткой.
 
-On **Bugfix**, enable **Fix selection after load** and close the panel. The option is off by default and remembered between launches. It works while the mod is running.
+На **Bugfix** включите **Fix selection after load** и закройте панель. По умолчанию опция выключена; выбор сохраняется между запусками. Она действует при работающем моде.
 
-## Notes
+## Примечания
 
-Spawn locations may be obstructed. Created units can be included when saving the mission.
+Место создания может оказаться занято. Созданные юниты могут попасть в сохранение миссии.
 
-To play without the mod, skip the launcher. To uninstall, close the game and delete `mods/spawn-ui`.
+Для игры без мода не запускайте launcher. Для удаления закройте игру и удалите `mods/spawn-ui`.
 
-[Known issues](KNOWN_ISSUES.md) · [Changelog](CHANGELOG.md) · [Release notes](RELEASE_NOTES.md)
+[Известные проблемы](KNOWN_ISSUES.md) · [История изменений](CHANGELOG.md) · [Примечания к релизу](RELEASE_NOTES.md)
